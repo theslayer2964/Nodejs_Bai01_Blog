@@ -2,9 +2,9 @@
   "name": "blog",
   "version": "1.0.0",
   "description": "bai01_blog",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
-    "start" : "nodemon --inspect index.js",
+    "start": "nodemon --inspect src/index.js",
     "test": "https://github.com/theslayer2964/Nodejs_Bai01_Blog.git"
   },
   "repository": {
@@ -20,10 +20,12 @@
     "url": "https://github.com/theslayer2964/Nodejs_Bai01_Blog/issues"
   },
   "homepage": "https://github.com/theslayer2964/Nodejs_Bai01_Blog#readme",
-  "dependencies": { 
-    "express": "^4.18.1"
+  "dependencies": {
+    "express": "^4.18.1",
+    "express-handlebars": "^6.0.6"
   },
   "devDependencies": {
+    "morgan": "^1.10.0",
     "nodemon": "^2.0.19"
   }
 }
