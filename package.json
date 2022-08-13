@@ -1,0 +1,29 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "bai01_blog",
+  "main": "index.js",
+  "scripts": {
+    "start" : "nodemon --inspect index.js",
+    "test": "https://github.com/theslayer2964/Nodejs_Bai01_Blog.git"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/theslayer2964/Nodejs_Bai01_Blog.git"
+  },
+  "keywords": [
+    "nodejs"
+  ],
+  "author": "hoangchi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/theslayer2964/Nodejs_Bai01_Blog/issues"
+  },
+  "homepage": "https://github.com/theslayer2964/Nodejs_Bai01_Blog#readme",
+  "dependencies": { 
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
